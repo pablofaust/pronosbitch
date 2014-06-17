@@ -1,13 +1,15 @@
-@import url(http://fonts.googleapis.com/css?family=Pacifico);
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif|Pacifico|Dancing+Script|Roboto);
 
 $body-bg: #2ecc71;
 
 $text-color: #2980b9;
 
-$font-size-base: 12px;
+$font-size-base: 14px;
 $font-size-h1: $font-size-base * 4.0;
 $font-size-h2: $font-size-base * 3.0;
 $font-size-h3: $font-size-base * 2.0;
+
+$headings-font-family: 'Dancing Script', cursive;
 
 $navbar-default-bg: #f1c40f;
 $navbar-height: 80px;
@@ -25,9 +27,9 @@ $navbar-default-toggle-border-color: #2ecc71;
 $nav-link-padding: 20px;
 
 $jumbotron-bg: white;
-$jumbotron-color: #3498db;
+$jumbotron-color: black;
 $jumbotron-heading-color: #2980b9;
-$jumbotron-padding: 20px;
+$jumbotron-padding: 15px;
 
 $thumbnail-padding: 10px;
 $thumbnail-bg: #f1c40f;
