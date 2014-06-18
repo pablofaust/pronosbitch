@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   root "pages#home"
   get "about" => "pages#about"
   get "argentine_bosnie" => "pages#argentine_bosnie"
+  get "allemagne_portugal" => "pages#allemagne_portugal"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
