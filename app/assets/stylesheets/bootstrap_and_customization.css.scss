@@ -8,6 +8,7 @@ $font-size-base: 14px;
 $font-size-h1: $font-size-base * 4.0;
 $font-size-h2: $font-size-base * 3.0;
 $font-size-h3: $font-size-base * 2.0;
+$font-size-h4: $font-size-base * 1.5;
 
 $headings-font-family: 'Dancing Script', cursive;
 
@@ -35,6 +36,16 @@ $thumbnail-padding: 10px;
 $thumbnail-bg: #f1c40f;
 $thumbnail-border: #f1c40f;
 
+$btn-primary-bg: #f1c40f;
+$btn-primary-border: #f1c40f;
+
+$input-border: #bdc3c7;
+$input-border-focus: #f1c40f;
+$input-height-base: 50px;
+
+$alert-info-bg: #3498db;
+$alert-info-text: white;
+$alert-info-border: white;
 
 @import 'bootstrap';
 
