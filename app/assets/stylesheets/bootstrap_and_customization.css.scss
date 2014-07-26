@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Droid+Serif|Pacifico|Dancing+Script|Roboto);
 
-$body-bg: #2ecc71;
+$body-bg: #ffffff;
 
 $text-color: #2980b9;
 
@@ -12,40 +12,24 @@ $font-size-h4: $font-size-base * 1.5;
 
 $headings-font-family: 'Dancing Script', cursive;
 
-$navbar-default-bg: #f1c40f;
-$navbar-height: 80px;
-$navbar-default-border: #f1c40f;
-$navbar-default-link-color: #3498db;
-$navbar-default-link-hover-color: #2980b9;
-$navbar-default-link-hover-bg: transparent;
+$navbar-default-bg: #ffca45;
+$navbar-height: 60px;
+$navbar-default-border: #ffca45;
 
-$navbar-default-brand-color: #3498db;
-$navbar-default-brand-hover-color: #2980b9;
-$navbar-default-toggle-icon-bar-bg: #3498db;
-$navbar-default-toggle-hover-bg: #2ecc71;
-$navbar-default-toggle-border-color: #2ecc71;
+$navbar-default-brand-color: #ffffff;
+$navbar-default-brand-hover-color : #ffffff;
 
-$nav-link-padding: 20px;
+$btn-success-color: #ffffff;
+$btn-success-bg: #85E6AA;
+$btn-success-border: #85E6AA;
 
-$jumbotron-bg: white;
-$jumbotron-color: black;
-$jumbotron-heading-color: #2980b9;
-$jumbotron-padding: 15px;
+$btn-danger-color: #ffffff;
+$btn-danger-bg: #EBEBEB;
+$btn-danger-border: #EBEBEB;
 
-$thumbnail-padding: 10px;
-$thumbnail-bg: #f1c40f;
-$thumbnail-border: #f1c40f;
-
-$btn-primary-bg: #f1c40f;
-$btn-primary-border: #f1c40f;
-
-$input-border: #bdc3c7;
-$input-border-focus: #f1c40f;
-$input-height-base: 50px;
-
-$alert-info-bg: #3498db;
-$alert-info-text: white;
-$alert-info-border: white;
+$btn-warning-color: #ffffff;
+$btn-warning-bg: #99E4FF;
+$btn-warning-border: #99E4FF;
 
 @import 'bootstrap';
 
@@ -53,14 +37,25 @@ $alert-info-border: white;
 	text-align: center;
 }
 
+.navbar-header {
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+ }
+
 .navbar-brand {
+	float:none;
 	font-weight: bold;
 	font-size: 30px;
 	font-family: 'Pacifico', cursive;
 }
 
-.navbar-nav {
-	font-weight: bold;
-	font-size: 24px;
-	font-family: 'Pacifico', cursive;
-}
+.input-group-addon {
+	width: 0.1%;
+	background-color: #FFCA45;
+	border: black;
+	 }
+
+.glyphicon {
+	color: #ffffff;
+	 }
