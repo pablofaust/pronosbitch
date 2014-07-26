@@ -1,9 +1,8 @@
 Rails.application.routes.draw do
   devise_for :users
   root "pages#home"
-  get "about" => "pages#about"
-  get "argentine_bosnie" => "pages#argentine_bosnie"
-  get "allemagne_portugal" => "pages#allemagne_portugal"
+  get "match1" => "pages#match1"
+  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

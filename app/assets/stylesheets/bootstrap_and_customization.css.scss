@@ -2,7 +2,7 @@
 
 $body-bg: #ffffff;
 
-$text-color: #2980b9;
+$text-color: #ffffff;
 
 $font-size-base: 14px;
 $font-size-h1: $font-size-base * 4.0;
@@ -10,7 +10,7 @@ $font-size-h2: $font-size-base * 3.0;
 $font-size-h3: $font-size-base * 2.0;
 $font-size-h4: $font-size-base * 1.5;
 
-$headings-font-family: 'Dancing Script', cursive;
+$headings-font-family: 'Helvetica Neue', Sans Serif;
 
 $navbar-default-bg: #ffca45;
 $navbar-height: 60px;
@@ -30,6 +30,11 @@ $btn-danger-border: #EBEBEB;
 $btn-warning-color: #ffffff;
 $btn-warning-bg: #99E4FF;
 $btn-warning-border: #99E4FF;
+
+$jumbotron-padding: 2px;
+$jumbotron-bg: #ffca45;
+
+$panel-bg: #ffca45;
 
 @import 'bootstrap';
 
