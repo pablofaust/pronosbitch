@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   devise_for :users
-  root "pages#home"
+  root "pages#home" 
+  get "home" => "pages#home"
   get "match1" => "pages#match1"
   
   # The priority is based upon order of creation: first created -> highest priority.
